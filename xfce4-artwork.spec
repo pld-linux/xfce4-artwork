@@ -1,5 +1,5 @@
-Summary:	Additional artwork for the XFce
-Summary(pl):	Dodatkowe ozdobniki dla XFce
+Summary:	Additional artwork for the Xfce
+Summary(pl):	Dodatkowe ozdobniki dla Xfce
 Name:		xfce4-artwork
 Version:	0.0.4
 Release:	1
@@ -11,10 +11,10 @@ URL:		http://xfce-goodies.berlios.de/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Additional artwork (backgrounds...) for the XFce desktop environment.
+Additional artwork (backgrounds...) for the Xfce desktop environment.
 
 %description -l pl
-Dodatkowe ozdobniki (tapety...) dla ¶rodowiska XFce.
+Dodatkowe ozdobniki (tapety...) dla ¶rodowiska Xfce.
 
 %prep
 %setup -q
