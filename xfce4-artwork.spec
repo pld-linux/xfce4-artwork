@@ -1,4 +1,4 @@
-Summary:	Additional artwork for the XFce.
+Summary:	Additional artwork for the XFce
 Summary(pl):	Dodatkowe ozdobniki dla XFce
 Name:		xfce4-artwork
 Version:	0.0.4
