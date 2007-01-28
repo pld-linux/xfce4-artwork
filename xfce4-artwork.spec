@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	http://download.berlios.de/xfce-goodies/%{name}-%{version}.tar.gz
 # Source0-md5:	b7612ee950fcf052e5acfacd0fda729f
 URL:		http://xfce-goodies.berlios.de/
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
