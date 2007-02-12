@@ -1,5 +1,5 @@
 Summary:	Additional artwork for the Xfce
-Summary(pl.UTF-8):   Dodatkowe ozdobniki dla Xfce
+Summary(pl.UTF-8):	Dodatkowe ozdobniki dla Xfce
 Name:		xfce4-artwork
 Version:	0.1
 Release:	1
