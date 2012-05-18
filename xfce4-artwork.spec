@@ -2,7 +2,7 @@ Summary:	Additional artwork for the Xfce
 Summary(pl.UTF-8):	Dodatkowe ozdobniki dla Xfce
 Name:		xfce4-artwork
 Version:	0.1
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.berlios.de/xfce-goodies/%{name}-%{version}.tar.gz
@@ -37,4 +37,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README 
+%dir %{_datadir}/xfce4/backdrops
 %{_datadir}/xfce4/backdrops/*
