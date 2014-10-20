@@ -7,7 +7,7 @@ Release:	0.%{snap}.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://ftp.debian.org/debian/pool/main/x/xfce4-artwork/%{name}_%{version}~git+%{snap}.orig.tar.gz
-# Source0-md5:	b7612ee950fcf052e5acfacd0fda729f
+# Source0-md5:	61d267527865fd0ee9f2fd011cb5d2ef
 URL:		http://xfce-goodies.berlios.de/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
