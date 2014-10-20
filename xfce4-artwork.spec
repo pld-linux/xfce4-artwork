@@ -12,6 +12,8 @@ URL:		http://xfce-goodies.berlios.de/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		bgdir	%{_datadir}/backgrounds/xfce
+
 %description
 Additional artwork (backgrounds...) for the Xfce desktop environment.
 
@@ -30,6 +32,7 @@ Dodatkowe ozdobniki (tapety...) dla środowiska Xfce.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
+	backdropsdir=$RPM_BUILD_ROOT%{bgdir}
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
@@ -38,5 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README 
-%dir %{_datadir}/xfce4/backdrops
-%{_datadir}/xfce4/backdrops/*
+%{bgdir}/*
